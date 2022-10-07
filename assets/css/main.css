@@ -1,0 +1,23 @@
+@import "fonts.css";
+@import "colors.css";
+
+
+.text-style__heading{
+    font-family: 'Helvetica', system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 150.99%;
+    display: flex;
+    align-items: center;
+    color: var(--color__text-title);
+    border: 1px solid var(--color__text-border);
+}
+.text-style__sub-heading{}
+.text-style__sec-title{}
+.text-style__sec-path{}
+.text-style__content{}
+.text-style__accent{}
+.text-style__licence__title{}
+.text-style__licence__description{}
+.text-style__timeline__date {}
