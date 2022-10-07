@@ -8,7 +8,7 @@ There are many great resume websites available on GitHub; however, I didn't find
 
 Here's why:
 
-- Resume website should have <ins>atractive and majestic theme</ins>.
+- Resume website should have <ins>attractive and majestic theme</ins>.
 - Resume website should have <ins>timeline section that shows your carrier</ins>.
 - Resume website should have <ins>licences/badges section that shows your educations</ins>.
 - Resume website should have <ins> a good big image of you which looks cool</ins> 😉.
@@ -24,7 +24,7 @@ build with html/css/js
 
 # Getting Started
 
-this project is build with pure html/css/js just clone and start using it .
+this project is build with html/css/js just clone and start using it .
 
 
 
