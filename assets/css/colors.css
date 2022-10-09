@@ -2,7 +2,8 @@
     --color__primary: #479F6F;
     --color__background: #1D1E20;
     --color__text-content: #717171;
-    --color__text-title: #FFFFFF;
+    --color__text-title: rgba(255, 255, 255, .7);
+    --color__text-subheading: #FFFFFF;
     --color__text-border: rgba(0, 0, 0, 0.7);
 }
 
