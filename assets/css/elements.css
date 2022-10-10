@@ -1,0 +1,21 @@
+#section__main__content {
+    padding-left: var(--dimention-navigation-width)
+}
+
+#container__navigation {
+    width: var(--dimention-navigation-width);
+    background: var(--color__background);
+    z-index: 10;
+    position: static;
+    height: 100vh;
+    box-shadow: 4px 0px 50px 6px rgba(0, 0, 0, 0.17);
+}
+#button__navigation__menu{
+    width: var(--dimention-navigation-width);
+    height: var(--dimention-navigation-width);
+    background: var(--color__primary);
+}
+
+#image{
+
+}

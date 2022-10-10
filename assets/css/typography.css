@@ -1,6 +1,6 @@
 @import "fonts.css";
 
-.text-style__heading {
+.text-style__heading-1 {
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
@@ -11,7 +11,7 @@
     border: 1px solid var(--color__text-border);
 }
 
-.text-style__subheading {
+.text-style__heading-2 {
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
@@ -22,7 +22,7 @@
     border: .8px solid var(--color__text-border);
 }
 
-.text-style__sec-title {
+.text-style__heading-3 {
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
@@ -40,7 +40,6 @@
     font-size: 19px;
     line-height: 30px;
     text-align: center;
-    color: var(--color__primary);
     border: 0.7px solid var(--color__text-border);
 }
 

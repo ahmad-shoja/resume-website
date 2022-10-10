@@ -1,4 +1,6 @@
 @import "bootstrap.min.css";
 @import "colors.css";
-@import "textStyles.css";
-@import "utilityStyles.css";
+@import "dimentions.css";
+@import "typography.css";
+@import "utility.css";
+@import "elements.css";
