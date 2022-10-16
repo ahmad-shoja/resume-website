@@ -1,6 +1,11 @@
-.overflow-y-hidden{
+.overflow-y-hidden {
     overflow-y: hidden;
 }
-.overflow-x-hidden{
+
+.overflow-x-hidden {
     overflow-x: hidden;
+}
+
+.selected > svg {
+    color: var(--color__primary)!important;
 }
