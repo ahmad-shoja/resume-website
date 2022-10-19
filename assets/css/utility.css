@@ -7,5 +7,12 @@
 }
 
 .selected > svg {
-    color: var(--color__primary)!important;
+    color: var(--color__primary) !important;
+}
+
+.divider {
+    height: 2px;
+    background: url("../images/divider.svg");
+    margin-top: 16px;
+    margin-bottom: 16px;
 }

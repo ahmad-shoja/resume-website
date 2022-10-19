@@ -8,7 +8,8 @@
     line-height: 114px;
     text-align: center;
     color: var(--color__text-title);
-    border: 1px solid var(--color__text-border);
+    text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+
 }
 
 .text-style__heading-2 {
@@ -19,7 +20,7 @@
     line-height: 63px;
     text-align: center;
     color: var(--color__text-subheading);
-    border: .8px solid var(--color__text-border);
+    text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
 }
 
 .text-style__heading-3 {
@@ -30,17 +31,19 @@
     line-height: 24px;
     text-align: center;
     color: var(--color__text-content);
-    border: .5px solid var(--color__text-border);
+    text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+
 }
 
 .text-style__path {
     font-family: 'Helvetica', system-ui;
     font-style: italic;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 19px;
     line-height: 30px;
     text-align: center;
-    border: 0.7px solid var(--color__text-border);
+    text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
+
 }
 
 .text-style__content {
@@ -49,9 +52,9 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    text-align: center;
     color: var(--color__text-content);
-    border: 0.4px solid var(--color__text-border);
+    text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+
 }
 
 .text-style__accent {
@@ -62,7 +65,8 @@
     line-height: 24px;
     color: var(--color__primary);
     text-align: center;
-    border: 0.4px solid var(--color__text-border);
+    text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+
 }
 
 .text-style__licence__title {
@@ -74,7 +78,8 @@
     letter-spacing: -0.035em;
     text-align: center;
     color: var(--color__text-title);
-    border: 0.7px solid var(--color__text-border);
+    text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
+
 }
 
 .text-style__licence__description__title {
@@ -86,7 +91,8 @@
     letter-spacing: -0.035em;
     text-align: center;
     color: var(--color__text-title);
-    border: 0.7px solid var(--color__text-border);
+    text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
+
 }
 
 .text-style__licence__description {
@@ -98,7 +104,7 @@
     letter-spacing: -0.035em;
     text-align: center;
     color: var(--color__text-content);
-    border: 0.7px solid black;
+    text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
 }
 
 .text-style__timeline__date {
@@ -109,6 +115,7 @@
     line-height: 43px;
     text-align: center;
     color: var(--color__text-content);
-    border: 0.4px solid var(--color__text-border);
+    text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+
 }
 
