@@ -96,12 +96,13 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.035em;
-    text-align: center;
+    text-align: start;
     color: var(--color__text-title);
     text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
+    flex-grow: 1;
 
 }
 
@@ -109,10 +110,11 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 18px;
     letter-spacing: -0.035em;
-    text-align: center;
+    text-align: start;
+    flex-grow: 1;
     color: var(--color__text-content);
     text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
 }
