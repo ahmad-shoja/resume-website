@@ -22,8 +22,18 @@
     color: var(--color__text-subheading);
     text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
 }
-
-.text-style__heading-3 {
+.text-style__heading-3{
+    font-family: 'Helvetica', system-ui;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 63px;
+    text-align: center;
+    color: var(--color__text-subheading);
+    text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+    letter-spacing: -0.035em;
+}
+.text-style__heading-4 {
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;

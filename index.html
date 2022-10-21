@@ -5,7 +5,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
-<body style="background: var(--color__background)" class="overflow-x-hidden">
+<body style="background: var(--color__background)" class="overflow-x-hidden position-relative">
 <div id="container__navigation" class="position-fixed d-flex flex-column">
     <div id="button__navigation__menu--hamburger" class="button__navigation-menu">
         <img src="assets/images/ic_menu_hamburger.svg" alt="ic_menu_hamburger.svg">
@@ -57,10 +57,10 @@
         <img src="assets/images/ic_download.svg" alt="ic_download.svg">
     </div>
 </div>
-<div id="section__main__content" class="d-flex justify-content-start col-12 ">
-    <div id="main-content-container" class="d-flex justify-content-center "  >
-        <div class="flex-column w-auto"  >
-            <div id="page_about_me" class="vh-100 vw-100 d-flex flex-row">
+<div id="section__main__content" class="d-flex justify-content-start">
+    <div id="main-content-container" class="d-flex justify-content-center">
+        <div class="flex-column w-100">
+            <div id="page_about_me" class="w-100 vh-100 d-flex flex-row">
                 <div id="container__main__image" class="col-5 h-100 d-flex flex-column position-relative">
                     <img src="assets/images/image_profile_main.JPG"
                          alt="profile_image" class="position-absolute">
@@ -81,8 +81,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7 h-100 d-flex flex-column ps-5 pe-5 pt-3">
-                    <p class="text-style__heading-1 text-start">about me</p>
+                <div class="col-7 h-100 d-flex flex-column ps-5 pe-5 pt-3 " style="">
+                    <p class="text-style__heading-1 text-start">About me</p>
                     <p class="text-style__path text-start">
                         <span style="color: var(--color__primary)">24 years</span>
                         <span style="color: var(--color__text-content)">/</span>
@@ -99,16 +99,63 @@
                         my sites received a 2015 Webby for Best Navigation and Structure.
                     </p>
                     <div class="divider"></div>
-                    <div class="row">
-                        <div class="col-6"></div>
-                        <div class="col-6"></div>
+                    <p class="text-style__heading-2 text-start">My expertise</p>
+                    <div class="row mt-5">
+                        <div class="col-6 ">
+                            <div class="d-flex flex-column justify-content-start">
+                                <img src="assets/images/ic_development.svg" alt="ic_development" width="40" height="40">
+                                <p class="text-style__heading-3 text-start ">Development</p>
+                                <p class="text-style__content">
+                                    Building a custom tailored solution
+                                    based on your technical
+                                    specification
+                                </p>
+                            </div>
+                            <div class=" mt-5">
+                                <div class="d-flex flex-column justify-content-start">
+                                    <img src="assets/images/ic_design.svg" alt="ic_design" width="40"
+                                         height="40">
+                                    <p class="text-style__heading-3 text-start ">UI / UX</p>
+                                    <p class="text-style__content">
+                                        Building a custom tailored solution
+                                        based on your technical
+                                        specification
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <div class="d-flex flex-column justify-content-start">
+                                    <img src="assets/images/ic_devops.svg" alt="ic_devops" width="40"
+                                         height="40">
+                                    <p class="text-style__heading-3 text-start ">DevOps</p>
+                                    <p class="text-style__content">
+                                        Building a custom tailored solution
+                                        based on your technical
+                                        specification
+                                    </p>
+                                </div>
+                            </div>
+                            <div class=" mt-5">
+                                <div class="d-flex flex-column justify-content-start">
+                                    <img src="assets/images/ic_teaching.svg" alt="ic_teaching" width="40"
+                                         height="40">
+                                    <p class="text-style__heading-3 text-start ">Teaching</p>
+                                    <p class="text-style__content">
+                                        Building a custom tailored solution
+                                        based on your technical
+                                        specification
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-
 </div>
 </body>
 </html>

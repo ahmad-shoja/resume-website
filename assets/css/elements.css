@@ -1,5 +1,7 @@
 #section__main__content {
-    padding-left: var(--dimention-navigation-width);
+    position: absolute;
+    left: var(--dimention-navigation-width);
+    right: 2px;
 }
 
 #container__navigation {

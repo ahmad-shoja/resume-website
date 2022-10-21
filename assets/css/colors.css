@@ -3,7 +3,7 @@
     --color__background: #1D1E20;
     --color__text-content: #717171;
     --color__text-title: rgba(255, 255, 255, .7);
-    --color__text-subheading: #FFFFFF;
+    --color__text-subheading: rgba(255, 255, 255, 0.81);
     --color__text-border: rgba(0, 0, 0, 0.7);
 }
 
