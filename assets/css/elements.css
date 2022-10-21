@@ -19,11 +19,11 @@
     background: var(--color__primary);
 }
 
-#container__main__image {
+#container__page-about-me__image {
     overflow: hidden;
 }
 
-#container__main__image > img {
+#container__page-about-me__image > img {
     object-fit: cover;
     width: 100%;
     height: 100%;
