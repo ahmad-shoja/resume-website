@@ -67,3 +67,19 @@
 }
 
 #page__about-me{}
+#ul__page-impossible-list{
+    list-style: none;
+}
+#ul__page-impossible-list p{
+    text-shadow: unset!important;
+}
+#ul__page-impossible-list li::before{
+    background-color: white;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    height: 10px;
+    width: 10px;
+}
