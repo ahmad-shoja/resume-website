@@ -147,20 +147,20 @@
     display: flex;
     flex-flow: row;
     justify-content: start;
-    margin-left: 24px;
+    margin-left: 64px;
 }
 
 .row__timeline--reverse > .text__timeline__date {
     display: flex;
     flex-flow: row-reverse;
     justify-content: end;
-    margin-right: 24px;
+    margin-right: 64px;
 }
 
 .row__timeline > .node__timeline {
-    margin-left: 24px;
+    margin-left: 64px;
 }
 
 .row__timeline--reverse > .node__timeline {
-    margin-right: 24px;
+    margin-right: 64px;
 }
