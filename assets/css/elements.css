@@ -56,24 +56,34 @@
     filter: drop-shadow(0px 0px 53px rgba(0, 0, 0, 0.25));
 
 }
-.container__licence__image{
+
+.container__licence__image {
     width: 100%;
     background: rgba(255, 255, 255, 0.01);
     border-radius: 9px 9px 0 0;
     height: 45%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#page__about-me{}
-#ul__page-impossible-list{
+#container__timeline {
+    background: url("");
+}
+
+#page__about-me {
+
+}
+
+#ul__page-impossible-list {
     list-style: none;
 }
-#ul__page-impossible-list p{
-    text-shadow: unset!important;
+
+#ul__page-impossible-list p {
+    text-shadow: unset !important;
 }
-#ul__page-impossible-list li::before{
+
+#ul__page-impossible-list li::before {
     background-color: white;
     border-radius: 50%;
     content: "";
@@ -82,4 +92,75 @@
     margin-bottom: 2px;
     height: 10px;
     width: 10px;
+}
+
+#container__timeline {
+}
+
+.card__timeline {
+    background: rgba(12, 12, 12, 0.54);
+    border-radius: 9px;
+    padding: 32px 32px 16px 32px;
+}
+
+.line__timeline {
+    width: 0;
+    border: 10px solid rgba(12, 12, 12, 0.54);
+    position: absolute;
+    z-index: -10;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.node__timeline {
+    background: #479F6F;
+    border-radius: 100px;
+    width: 90px;
+    height: 90px;
+    border: 11px solid rgba(12, 12, 12, 0.54);
+}
+
+#page__about-me,
+#page__licences,
+#page__impossible-list,
+#page__timeline {
+    min-height: 100vh;
+}
+
+.row__timeline,
+.row__timeline--reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.row__timeline--reverse {
+    flex-flow: row-reverse;
+}
+
+.row__timeline--reverse {
+    flex-flow: row-reverse;
+}
+
+.row__timeline > .text__timeline__date {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    margin-left: 24px;
+}
+
+.row__timeline--reverse > .text__timeline__date {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: end;
+    margin-right: 24px;
+}
+
+.row__timeline > .node__timeline {
+    margin-left: 24px;
+}
+
+.row__timeline--reverse > .node__timeline {
+    margin-right: 24px;
 }
