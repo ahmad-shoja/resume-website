@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>AhmadShoja</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="background: var(--color__background)" class="overflow-x-hidden position-relative">
 <div id="container__navigation" class="position-fixed d-flex flex-column">
@@ -60,8 +61,9 @@
 <div id="section__main__content" class="d-flex justify-content-start">
     <div id="main__content__container" class="d-flex justify-content-center">
         <div class="flex-column w-100">
-            <div id="page__about-me" class="w-100 d-flex flex-row">
-                <div id="container__page-about-me__image" class="col-5 d-flex flex-column position-relative">
+            <div id="page__about-me" class="w-100 d-flex flex-row flex-wrap">
+                <div id="container__page-about-me__image"
+                     class="col-12 col-sm-12 col-md-5 d-flex flex-column position-relative">
                     <img src="assets/images/image_profile_main.JPG"
                          alt="profile_image" class="position-absolute">
                     <div id="gradient__main-image" class="position-absolute d-flex flex-column-reverse">
@@ -81,7 +83,8 @@
                         </div>
                     </div>
                 </div>
-                <div id="container__page-about-me__content" class="col-7 h-100 d-flex flex-column ps-5 pe-5 pt-3 "
+                <div id="container__page-about-me__content"
+                     class="col-12 col-sm-12 col-md-7 h-100 d-flex flex-column ps-5 pe-5 pt-3 "
                      style="">
                     <p class="text-style__heading-1 text-start">About me</p>
                     <p class="text-style__path text-start">
@@ -91,7 +94,7 @@
                         <span style="color: var(--color__text-content)">/</span>
                         <span style="color: var(--color__primary)">full-time</span>
                     </p>
-                    <p class="text-style__content w-75">
+                    <p class="text-style__content col-md-9 col-12 col-sm-12">
                         Prolific, full stack web developer with a passion for metrics and beating former
                         'best-yets.• Prototyped 25 new product features per year for Flexor. Inc.
                         Decreased rework by 22% and costs by 15%. Consistently receive high user
@@ -102,7 +105,7 @@
                     <div class="divider"></div>
                     <p class="text-style__heading-2 text-start">My expertise</p>
                     <div class="row mt-5">
-                        <div class="col-6 ">
+                        <div class="col-12 col-sm-12 col-md-6 ">
                             <div class="d-flex flex-column justify-content-start">
                                 <img src="assets/images/ic_development.svg" alt="ic_development" width="40" height="40">
                                 <p class="text-style__heading-3 text-start ">Development</p>
@@ -125,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-12 col-sm-12 col-md-6">
                             <div>
                                 <div class="d-flex flex-column justify-content-start">
                                     <img src="assets/images/ic_devops.svg" alt="ic_devops" width="40"
@@ -155,11 +158,39 @@
                 </div>
 
             </div>
-            <div id="page__licences" class="w-100  d-flex flex-column pe-5 ps-5 pt-3">
+            <div id="page__licences" class="w-100 d-flex flex-column pe-5 ps-5 pt-3">
                 <div class="text-style__heading-1">Licences & Badges</div>
                 <div id="container__page-licence__content" class="d-flex flex-column justify-content-center pt-5 w-100">
                     <div class="d-flex flex-row w-100 justify-content-center flex-wrap">
-                        <div class="container__page-licences__licence col-2 me-5 ms-5 mb-5
+                        <div class="container__page-licences__licence col-8 col-sm-8 col-md-2  me-5 ms-5 mb-5
+                        d-flex flex-column align-items-center" style="height: 430px">
+                            <div class="container__licence__image">
+                                <img src="https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D"
+                                     alt=""
+                                     class="w-100 h-100"
+                                >
+                            </div>
+                            <p class="text-style__licence__title mt-3 mb-0">
+                                Create and Manage
+                                Cloud Resources
+                            </p>
+                            <div class="divider" style="width: 90%"></div>
+                            <div class="d-flex flex-column w-100 ps-4 pe-4">
+                                <div class="d-flex flex-row w-100 justify-content-start">
+                                    <p class="text-style__licence__description__title">Issuer:</p>
+                                    <p class="text-style__licence__description">Google</p>
+                                </div>
+                                <div class="d-flex flex-row w-100 ">
+                                    <p class="text-style__licence__description__title">Level:</p>
+                                    <p class="text-style__licence__description">Intermediate</p>
+                                </div>
+                                <div class="d-flex flex-row w-100 ">
+                                    <p class="text-style__licence__description__title">Duration:</p>
+                                    <p class="text-style__licence__description">-</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container__page-licences__licence col-8  col-sm-8 col-md-2 me-5 ms-5 mb-5
                         d-flex flex-column align-items-center" style="height: 430px">
                             <div class="container__licence__image">
                                 <img src="https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D"
@@ -348,7 +379,7 @@
                 <div class="d-flex flex-column mt-5">
                     <div class="d-flex flex-row">
                         <p class="text-style__contact--title">Email:</p>
-                        <p class="text-style__contact--val ms-2"  >Ahmad.shoja.999@gmail.com</p>
+                        <p class="text-style__contact--val ms-2">Ahmad.shoja.999@gmail.com</p>
                     </div>
                 </div>
             </div>
