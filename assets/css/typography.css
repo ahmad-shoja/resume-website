@@ -1,11 +1,40 @@
 @import "fonts.css";
 
+:root {
+    font-size: 10px;
+}
+
+@media (min-width: 576px) {
+    :root {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        font-size: 16px;
+    }
+}
+
+
 .text-style__heading-1 {
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 76px;
-    line-height: 114px;
+    font-size: 4.75rem;
+    line-height: 6rem;
     text-align: center;
     color: var(--color__text-title);
     text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
@@ -16,8 +45,8 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 42px;
-    line-height: 63px;
+    font-size: 2.625rem;
+    line-height: 2.625rem;
     text-align: center;
     color: var(--color__text-subheading);
     text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
@@ -27,8 +56,8 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 63px;
+    font-size: 1.5625rem;
+    line-height: 4.5rem;
     text-align: center;
     color: var(--color__text-subheading);
     text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
@@ -39,7 +68,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 24px;
     text-align: center;
     color: var(--color__text-content);
@@ -51,7 +80,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: italic;
     font-weight: 800;
-    font-size: 19px;
+    font-size: 1.1875rem;
     line-height: 30px;
     text-align: center;
     text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border), 0 -1.4px var(--color__text-border);
@@ -62,8 +91,8 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     color: var(--color__text-content);
     text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
 
@@ -73,8 +102,8 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
     color: var(--color__primary);
     text-align: center;
     text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
@@ -85,7 +114,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 1.3125rem;
     line-height: 32px;
     letter-spacing: -0.035em;
     text-align: center;
@@ -98,7 +127,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 18px;
     letter-spacing: -0.035em;
     text-align: start;
@@ -112,7 +141,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 18px;
     letter-spacing: -0.035em;
     text-align: start;
@@ -125,9 +154,9 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 43px;
-    text-align: center;
+    text-align: start;
     color: var(--color__text-content);
     text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
 
@@ -137,7 +166,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 63px;
     text-align: start;
     color: var(--color__text-subheading);
@@ -149,7 +178,7 @@
     font-family: 'Helvetica', system-ui;
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     line-height: 63px;
     text-align: start;
     text-decoration: underline;

@@ -58,8 +58,8 @@
         <img src="assets/images/ic_download.svg" alt="ic_download.svg">
     </div>
 </div>
-<div id="section__main__content" class="d-flex justify-content-start">
-    <div id="main__content__container" class="d-flex justify-content-center">
+<div id="section__main__content" class="d-flex justify-content-start w-100">
+    <div id="main__content__container" class="d-flex justify-content-center w-100 ">
         <div class="flex-column w-100">
             <div id="page__about-me" class="w-100 d-flex flex-row flex-wrap">
                 <div id="container__page-about-me__image"
@@ -162,12 +162,11 @@
                 <div class="text-style__heading-1">Licences & Badges</div>
                 <div id="container__page-licence__content" class="d-flex flex-column justify-content-center pt-5 w-100">
                     <div class="d-flex flex-row w-100 justify-content-center flex-wrap">
-                        <div class="container__page-licences__licence col-8 col-sm-8 col-md-2  me-5 ms-5 mb-5
+                        <div class="container__page-licences__licence col-10 col-sm-10 col-md-2
                         d-flex flex-column align-items-center" style="height: 430px">
                             <div class="container__licence__image">
                                 <img src="https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D"
                                      alt=""
-                                     class="w-100 h-100"
                                 >
                             </div>
                             <p class="text-style__licence__title mt-3 mb-0">
@@ -190,12 +189,12 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="container__page-licences__licence col-8  col-sm-8 col-md-2 me-5 ms-5 mb-5
+                        <div class="container__page-licences__licence col-10 col-sm-10 col-md-2
                         d-flex flex-column align-items-center" style="height: 430px">
                             <div class="container__licence__image">
                                 <img src="https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D"
                                      alt=""
-                                     class="w-100 h-100"
+                                     class="h-100"
                                 >
                             </div>
                             <p class="text-style__licence__title mt-3 mb-0">
@@ -223,7 +222,7 @@
 
             </div>
             <div id="page__impossible-list" class="w-100  d-flex flex-column pe-5 ps-5 pt-3">
-                <div class="text-style__heading-1">Impossible list</div>
+                <p class="text-style__heading-1">Impossible list</p>
                 <div id="container__page-impossible-list" class="d-flex flex-column justify-content-center pt-5 w-100">
                     <ul id="ul__page-impossible-list" class="row">
                         <li>
@@ -261,115 +260,162 @@
                     </ul>
                 </div>
             </div>
-            <div id="page__timeline" class="w-100 d-flex flex-column pe-5 ps-5 pt-3">
+            <div id="page__timeline" class="w-100 d-flex flex-column pe-md-5 ps-md-5 ps-0 pe-0 ps-sm-0 pe-sm-0   pt-3">
                 <div class="text-style__heading-1">Timeline</div>
-                <div class="d-flex justify-content-center mt-5 ">
-                    <div class="col-10 d-flex flex-column align-items-center position-relative"
-                         id="container__timeline">
+                <div class="d-flex justify-content-center mt-5 ms-0 me-0 ">
+                    <div class="col-md-10 col-12 col-sm-12 d-flex flex-column align-items-start align-items-sm-start
+                     align-items-md-center align-items-lg-center position-relative pb-5 mb-5"
+                         id="container__timeline ">
                         <div class="row__timeline col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
+                            </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="col-4 text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
                             </div>
                         </div>
                         <div class="row__timeline--reverse col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
                             </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
+                            </div>
+
                         </div>
                         <div class="row__timeline col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
+                            </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="col-4 text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
                             </div>
                         </div>
                         <div class="row__timeline--reverse col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
                             </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
+                            </div>
+
                         </div>
                         <div class="row__timeline col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
+                            </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="col-4 text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
                             </div>
                         </div>
                         <div class="row__timeline--reverse col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
                             </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
+                            </div>
+
                         </div>
                         <div class="row__timeline col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
+                            </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="col-4 text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
                             </div>
                         </div>
                         <div class="row__timeline--reverse col-10">
-                            <div class="card__timeline col-4">
-                                <p class="text-style__content">This is text-content sample text
-                                    component font style is :
-                                    helvetica rounded.</p>
-                            </div>
-                            <div class="node__timeline"></div>
                             <div class="col-4 text__timeline__date">
                                 <p class="text-style__timeline__date m-0">
                                     2022
                                 </p>
                             </div>
+                            <div class="node__timeline"></div>
+                            <div class="card__timeline col-md-4 col-10 col-sm-10 col-lg-4">
+                                <div class="text__timeline__date">
+                                    <p class="text-style__timeline__date m-0">
+                                        2022
+                                    </p>
+                                </div>
+                                <p class="text-style__content">This is text-content sample text
+                                    component font style is :
+                                    helvetica rounded.</p>
+                            </div>
+
                         </div>
+
+
                         <div class="line__timeline"></div>
                     </div>
                 </div>
@@ -385,5 +431,6 @@
             </div>
         </div>
     </div>
+</div>
 </body>
 </html>

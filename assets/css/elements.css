@@ -12,7 +12,8 @@
     z-index: 20;
     position: static;
     height: 100vh;
-    box-shadow: 4px 0px 50px 6px rgba(0, 0, 0, 0.17);
+    box-shadow: 4px 0 50px 6px rgba(0, 0, 0, 0.17);
+    overflow: hidden;
 }
 
 #button__navigation__menu--hamburger {
@@ -54,7 +55,12 @@
     border: 1px solid #000000;
     border-radius: 9px;
     filter: drop-shadow(0px 0px 53px rgba(0, 0, 0, 0.25));
+    margin: 20px 0 0 0;
+}
 
+.container__licence__image > img {
+    height: 100%;
+    max-width: 100%;
 }
 
 .container__licence__image {
@@ -67,9 +73,6 @@
     align-items: center;
 }
 
-#container__timeline {
-    background: url("");
-}
 
 #page__about-me {
 
@@ -100,7 +103,8 @@
 .card__timeline {
     background: rgba(12, 12, 12, 0.54);
     border-radius: 9px;
-    padding: 32px 32px 16px 32px;
+    padding: 8px 16px 8px 16px;
+    margin-left: 90px;
 }
 
 .line__timeline {
@@ -136,32 +140,143 @@
     margin-top: 64px;
 }
 
-.row__timeline--reverse {
-    flex-flow: row-reverse;
-}
 
-.row__timeline--reverse {
-    flex-flow: row-reverse;
-}
-
-.row__timeline > .text__timeline__date {
-    display: flex;
+.row__timeline--reverse > .text__timeline__date {
+    display: none;
     flex-flow: row;
     justify-content: start;
     margin-left: 64px;
 }
 
-.row__timeline--reverse > .text__timeline__date {
-    display: flex;
+.row__timeline > .text__timeline__date {
+    display: none;
     flex-flow: row-reverse;
     justify-content: end;
     margin-right: 64px;
 }
 
-.row__timeline > .node__timeline {
-    margin-left: 64px;
+.node__timeline {
+    margin-right: 64px;
+    position: absolute;
+    left: -34px;
 }
 
-.row__timeline--reverse > .node__timeline {
-    margin-right: 64px;
+
+@media (min-width: 576px) {
+    .container__page-licences__licence {
+        margin: 20px 0 0 0;
+    }
+
+    .row__timeline--reverse > .text__timeline__date,
+    .row__timeline > .text__timeline__date {
+        display: none;
+    }
+
+    .card__timeline {
+        margin-left: 90px;
+    }
+}
+
+@media (min-width: 768px) {
+    .card__timeline > .text__timeline__date {
+        display: none;
+    }
+
+    .container__page-licences__licence {
+        margin: 0 20px 20px 20px;
+    }
+
+    .row__timeline--reverse > .text__timeline__date,
+    .row__timeline > .text__timeline__date {
+        display: flex;
+    }
+
+    .row__timeline--reverse {
+        flex-flow: row-reverse;
+    }
+
+    .row__timeline--reverse > .node__timeline {
+        margin-left: 64px !important;
+        margin-right: 0 !important;
+    }
+
+    .node__timeline {
+        left: 0;
+        margin-right: 64px;
+        position: relative;
+    }
+
+    .card__timeline {
+        margin-left: 0;
+    }
+
+    .card__timeline {
+        padding: 32px 32px 16px 32px
+    }
+
+    @media (min-width: 992px) {
+        .card__timeline > .text__timeline__date {
+            display: none;
+        }
+
+        .container__page-licences__licence {
+            margin: 0 20px 20px 20px;
+        }
+
+        .row__timeline--reverse > .text__timeline__date,
+        .row__timeline > .text__timeline__date {
+            display: flex;
+        }
+
+        .row__timeline--reverse {
+            flex-flow: row-reverse;
+        }
+
+        .node__timeline {
+            left: 0;
+            margin-right: 64px;
+            position: relative;
+        }
+
+        .card__timeline {
+            margin-left: 0;
+        }
+
+        .card__timeline {
+            padding: 32px 32px 16px 32px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .card__timeline > .text__timeline__date {
+            display: none;
+        }
+
+        .container__page-licences__licence {
+            margin: 0 20px 20px 20px;
+        }
+
+        .row__timeline--reverse > .text__timeline__date,
+        .row__timeline > .text__timeline__date {
+            display: flex;
+        }
+
+        .row__timeline--reverse {
+            flex-flow: row-reverse;
+        }
+
+        .node__timeline {
+            left: 0;
+            margin-right: 64px;
+            position: relative;
+        }
+
+        .card__timeline {
+            margin-left: 0;
+        }
+
+        .card__timeline {
+            padding: 32px 32px 16px 32px;
+        }
+    }
 }
