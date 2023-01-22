@@ -1,0 +1,109 @@
+{
+  "name": "Ahmad Shoja",
+  "expertise": "Developer",
+  "age": 25,
+  "location": "saveh",
+  "jobType": "Full-time",
+  "intro": "Hi, I’m Ahmad Shoja, and I graduated from the University of Amirkabir-arak in 2021 with a bachelor's degree in Computer Software Engineering.</br> My interests are in Front End and Android Engineering, and I love to create well-structured and clean coded products which can be easily maintained.</br> previously worked at team pooya-tech, where we take startup projects from customers in\n                        different stack technologies like react, vue, python, django, android etc.</br>I enjoy finding optimal ways\n                        to do things, with minimum effort and maximum quality.",
+  "expertises": [
+    {
+      "title": "Development",
+      "icon": "assets/images/ic_development.svg",
+      "content": " Building a custom tailored solution\n                                    based on your technical\n                                    specification"
+    },
+    {
+      "title": "UI / UX",
+      "icon": "assets/images/ic_design.svg",
+      "content": "Building a custom tailored solution\n                                        based on your technical\n                                        specification"
+    },
+    {
+      "title": "DevOps",
+      "icon": "assets/images/ic_devops.svg",
+      "content": "Building a custom tailored solution\n                                        based on your technical\n                                        specification"
+    },
+    {
+      "title": "Teaching",
+      "icon": "assets/images/ic_devops.svg",
+      "content": "hello"
+    }
+  ],
+  "licences": [
+    {
+      "image": "https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D",
+      "title": "Create and Manage\n                                Cloud Resources",
+      "issuer": "Google",
+      "level": "Intermediate",
+      "duration": "-"
+    },
+    {
+      "image": "https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D",
+      "title": "Create and Manage\n                                Cloud Resources",
+      "issuer": "Google",
+      "level": "Intermediate",
+      "duration": "-"
+    }
+  ],
+  "impossibleList": [
+    {
+      "content": "Reach 30 WM typing speed",
+      "checked": true
+    },
+    {
+      "content": " Reach 40 WM typing speed",
+      "checked": false
+    },
+    {
+      "content": " Build your Resume",
+      "checked": false
+    },
+    {
+      "content": "Acquire gcloud's \"Create and Manage Cloud Resources\" Badge ",
+      "checked": false
+    },
+    {
+      "content": "Acquire gcloud's \"Deploy to Kubernetes in Google Cloud\" Badge",
+      "checked": false
+    },
+    {
+      "content": "Acquire gcloud's \"Ensure Access & Identity in Google Cloud\" Badge",
+      "checked": false
+    },
+    {
+      "content": "Acquire gcloud's \"Set Up and Configure a Cloud Environment in Google Cloud\" Badge",
+      "checked": false
+    },
+    {
+      "content": "Acquire gcloud's \"Deploy and Manage Cloud Environments with Google Cloud\" Badge",
+      "checked": false
+    }
+  ],
+  "timeline": [
+    {
+      "year": 2019,
+      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+    },
+    {
+      "year": 2020,
+      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+    },
+    {
+      "year": 2021,
+      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+    },
+    {
+      "year": 2022,
+      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+    },
+    {
+      "year": 2023,
+      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+    }
+  ],
+  "contact": {
+    "email": "Ahmad.shoja.999@gmail.com",
+    "github": "https://github.com/ahmad-shoja",
+    "linkedin": "https://www.linkedin.com/in/ahmad-shoja/",
+    "facebook": "",
+    "youtube": ""
+  }
+}
