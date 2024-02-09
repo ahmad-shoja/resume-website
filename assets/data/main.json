@@ -4,40 +4,33 @@
   "age": 25,
   "location": "saveh",
   "jobType": "Full-time",
-  "intro": "Hi, I’m Ahmad Shoja, and I graduated from the University of Amirkabir-arak in 2021 with a bachelor's degree in Computer Software Engineering.</br> My interests are in Front End and Android Engineering, and I love to create well-structured and clean coded products which can be easily maintained.</br> previously worked at team pooya-tech, where we take startup projects from customers in\n                        different stack technologies like react, vue, python, django, android etc.</br>I enjoy finding optimal ways\n                        to do things, with minimum effort and maximum quality.",
+  "intro": "👋 Hi, I’m Ahmad Shoja.</br>👀 I graduated from the University of Amirkabir-arak in 2021 with a bachelor's degree in Computer Software development.</br>🌱 My interests are in software architecture and design patterns, and I love to create well-structured and clean-coded products that can be easily maintained.🧑‍💻I previously worked at team pooya-tech, where we take startup projects from customers in different stack technologies like react, Vue, Python, Django, android, etc.</br>Now im working in a shopify app development team as CTO.</br>💞️ I love to find optimal ways to do things, with minimum effort and maximum quality. I can grease the wheels of projects.",
   "expertises": [
     {
-      "title": "Development",
+      "title": "Web Development",
       "icon": "assets/images/ic_development.svg",
-      "content": " Building a custom tailored solution\n                                    based on your technical\n                                    specification"
+      "content": "Experienced Javascript/Typescript developer"
+    },
+    {
+      "title": "Android Development",
+      "icon": "assets/images/ic_android.svg",
+      "content": "Intermediate kotlin/jetpack-compose android developer"
     },
     {
       "title": "UI / UX",
       "icon": "assets/images/ic_design.svg",
-      "content": "Building a custom tailored solution\n                                        based on your technical\n                                        specification"
+      "content": "Familiar with Ui/Ux design"
     },
     {
       "title": "DevOps",
       "icon": "assets/images/ic_devops.svg",
-      "content": "Building a custom tailored solution\n                                        based on your technical\n                                        specification"
-    },
-    {
-      "title": "Teaching",
-      "icon": "assets/images/ic_devops.svg",
-      "content": "hello"
+      "content": "Intermediate devops engineer"
     }
   ],
   "licences": [
     {
       "image": "https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D",
-      "title": "Create and Manage\n                                Cloud Resources",
-      "issuer": "Google",
-      "level": "Intermediate",
-      "duration": "-"
-    },
-    {
-      "image": "https://cdn.qwiklabs.com/qigZkhvg9KqENz%2FVGMdHGLby%2FUQ%2Bhr1id2Cbp0GxSvs%3D",
-      "title": "Create and Manage\n                                Cloud Resources",
+      "title": "Create and Manage Cloud Resources",
       "issuer": "Google",
       "level": "Intermediate",
       "duration": "-"
@@ -45,58 +38,62 @@
   ],
   "impossibleList": [
     {
-      "content": "Reach 30 WM typing speed",
+      "content": "Reach 30 WM typing speed.",
       "checked": true
     },
     {
-      "content": " Reach 40 WM typing speed",
+      "content": " Reach 40 WM typing speed.",
+      "checked": true
+    },
+    {
+      "content": "Build your Resume.",
+      "checked": true
+    },
+    {
+      "content": "Acquire gcloud's \"Create and Manage Cloud Resources\" Badge.",
+      "checked": true
+    },
+    {
+      "content": "Complete jsAdvanced course by \"Andrei Neagoie\".",
+      "checked": true
+    },
+    {
+      "content": "Learn and implement DDD architecture with react and ts.",
+      "checked": true
+    },
+    {
+      "content": "Read and learn Uncle bob's Clean code.",
       "checked": false
     },
     {
-      "content": " Build your Resume",
-      "checked": false
-    },
-    {
-      "content": "Acquire gcloud's \"Create and Manage Cloud Resources\" Badge ",
-      "checked": false
-    },
-    {
-      "content": "Acquire gcloud's \"Deploy to Kubernetes in Google Cloud\" Badge",
-      "checked": false
-    },
-    {
-      "content": "Acquire gcloud's \"Ensure Access & Identity in Google Cloud\" Badge",
-      "checked": false
-    },
-    {
-      "content": "Acquire gcloud's \"Set Up and Configure a Cloud Environment in Google Cloud\" Badge",
-      "checked": false
-    },
-    {
-      "content": "Acquire gcloud's \"Deploy and Manage Cloud Environments with Google Cloud\" Badge",
+      "content": "Read and learn Uncle bob's Clean architecture.",
       "checked": false
     }
   ],
   "timeline": [
     {
-      "year": 2019,
-      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+      "year": "2018-2018",
+      "content": "Android app developer at Behin Tarrahan Kaveh, Saveh"
     },
     {
-      "year": 2020,
-      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+      "year": "2019-2021",
+      "content": "Bachelor , University Amirkabir , Arak"
     },
     {
-      "year": 2021,
-      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+      "year": "2019-2019",
+      "content": "Personal website maintainer , saveh"
     },
     {
-      "year": 2022,
-      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+      "year": "2019-2020",
+      "content": "Android app developer at PooyaTech, Saveh"
     },
     {
-      "year": 2023,
-      "content": "This is text-content sample text\n                                    component font style is :\n                                    helvetica rounded."
+      "year": "2020-2022",
+      "content": "Software Developer at PooyaTech, Saveh"
+    },
+    {
+      "year": "2022-Now",
+      "content": "Shopify App Developer and Devops engineer at Ronash, Tehran"
     }
   ],
   "contact": {

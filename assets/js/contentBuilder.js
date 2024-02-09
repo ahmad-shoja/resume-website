@@ -118,14 +118,14 @@ document.querySelector('body').outerHTML = ejs.render(`
                                 <div class="col-12 col-sm-12 col-md-6 ">
                                     <div class="d-flex flex-column justify-content-start">
                                         <img src="<%-expertises[0]['icon']%>" alt="<%-expertises[0]['title']%>" width="40" height="40">
-                                        <p class="text-style__heading-3 text-start "><%-expertises[0]["title"]%></p>
+                                        <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[0]["title"]%></p>
                                         <p class="text-style__content"><%-expertises[0]["content"]%></p>
                                     </div>
                                     <div class=" mt-5">
                                         <div class="d-flex flex-column justify-content-start">
                                             <img src="<%-expertises[1]['icon']%>" alt="<%-expertises[1]['title']%>" width="40"
                                                  height="40">
-                                            <p class="text-style__heading-3 text-start "><%-expertises[1]["title"]%></p>
+                                            <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[1]["title"]%></p>
                                             <p class="text-style__content"><%-expertises[1]["content"]%></p>
                                         </div>
                                     </div>
@@ -135,7 +135,7 @@ document.querySelector('body').outerHTML = ejs.render(`
                                         <div class="d-flex flex-column justify-content-start">
                                             <img src="<%-expertises[2]['icon']%>" alt="<%-expertises[2]['title']%>" width="40"
                                                  height="40">
-                                            <p class="text-style__heading-3 text-start "><%-expertises[2]["title"]%></p>
+                                            <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[2]["title"]%></p>
                                             <p class="text-style__content"><%-expertises[2]["content"]%></p>
                                         </div>
                                     </div>
@@ -143,7 +143,7 @@ document.querySelector('body').outerHTML = ejs.render(`
                                         <div class="d-flex flex-column justify-content-start">
                                             <img src="<%-expertises[3]['icon']%>" alt="<%-expertises[3]['title']%>" width="40"
                                                  height="40">
-                                            <p class="text-style__heading-3 text-start "><%-expertises[3]["title"]%></p>
+                                            <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[3]["title"]%></p>
                                             <p class="text-style__content"><%-expertises[3]["content"]%></p>
                                         </div>
                                     </div>
