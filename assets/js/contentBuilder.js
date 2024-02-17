@@ -1,7 +1,8 @@
-import data from "../data/main.json" assert {type: 'json'}
+import data from "../data/main.json" assert { type: "json" };
 
-document.title = data.name
-document.querySelector('body').outerHTML = ejs.render(`
+document.title = data.name;
+document.querySelector("body").outerHTML = ejs.render(
+  `
 
         <body style="background: var(--color__background)" class="overflow-x-hidden position-relative">
         <div id="container__navigation" class="position-fixed d-flex flex-column">
@@ -21,7 +22,7 @@ document.querySelector('body').outerHTML = ejs.render(`
                                   fill="currentColor"/>
                         </svg>
                     </div>
-                    <div id="button__navigation__menu--licenses" class="button__navigation-menu">
+                    <div id="button__navigation__menu--licenses " class="button__navigation-menu">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 7.5H27.5V10H12.5V7.5ZM12.5 12.5H27.5V15H12.5V12.5ZM12.5 30H20V32.5H12.5V30ZM12.5 17.5H20V20H12.5V17.5Z"
                                   fill="currentColor"/>
@@ -151,32 +152,32 @@ document.querySelector('body').outerHTML = ejs.render(`
                             </div>
                         </div>
                     </div>
-                    <div id="page__licences" class="w-100 d-flex flex-column pe-5 ps-5 pt-3">
-                        <div class="text-style__heading-1">Licences & Badges</div>
-                        <div id="container__page-licence__content" class="d-flex flex-column justify-content-center pt-5 w-100">
+                    <div id="page__licenses" class="w-100 d-flex flex-column pe-5 ps-5 pt-3">
+                        <div class="text-style__heading-1">Licenses & Badges</div>
+                        <div id="container__page-license__content" class="d-flex flex-column justify-content-center pt-5 w-100">
                             <div class="d-flex flex-row w-100 justify-content-center flex-wrap">
-                            <% licences.forEach((licence)=>{ %>
-                                <div class="container__page-licences__licence col-10 col-sm-10 col-md-2
+                            <% licenses.forEach((license)=>{ %>
+                                <div class="container__page-licenses__license col-10 col-sm-10 col-md-2
                                 d-flex flex-column align-items-center" style="height: 430px">
-                                    <div class="container__licence__image">
-                                        <img src="<%-licence.image-%>"
+                                    <div class="container__license__image">
+                                        <img src="<%-license.image-%>"
                                              alt=""
                                         >
                                     </div>
-                                    <p class="text-style__licence__title mt-3 mb-0"><%-licence.title-%></p>
+                                    <p class="text-style__license__title mt-3 mb-0"><%-license.title-%></p>
                                     <div class="divider" style="width: 90%"></div>
                                     <div class="d-flex flex-column w-100 ps-4 pe-4">
                                         <div class="d-flex flex-row w-100 justify-content-start">
-                                            <p class="text-style__licence__description__title">Issuer:</p>
-                                            <p class="text-style__licence__description"><%-licence.issuer-%></p>
+                                            <p class="text-style__license__description__title">Issuer:</p>
+                                            <p class="text-style__license__description"><%-license.issuer-%></p>
                                         </div>
                                         <div class="d-flex flex-row w-100 ">
-                                            <p class="text-style__licence__description__title">Level:</p>
-                                            <p class="text-style__licence__description"><%-licence.level-%></p>
+                                            <p class="text-style__license__description__title">Level:</p>
+                                            <p class="text-style__license__description"><%-license.level-%></p>
                                         </div>
                                         <div class="d-flex flex-row w-100 ">
-                                            <p class="text-style__licence__description__title">Duration:</p>
-                                            <p class="text-style__licence__description"><%-licence.duration-%></p>
+                                            <p class="text-style__license__description__title">Duration:</p>
+                                            <p class="text-style__license__description"><%-license.duration-%></p>
                                         </div>
                                     </div>
                                 </div>
@@ -247,4 +248,6 @@ document.querySelector('body').outerHTML = ejs.render(`
             </div>
         </div>
         </body>
-`, data);
+`,
+  data
+);

@@ -1,11 +1,11 @@
 #section__main__content {
     position: absolute;
-    left: var(--dimention-navigation-width);
+    left: var(--dimension-navigation-width);
     right: 2px;
 }
 
 #container__navigation {
-    width: var(--dimention-navigation-width);
+    width: var(--dimension-navigation-width);
     background: linear-gradient(90deg, #1D1E20 5%, rgba(29, 30, 32, 0.53) 90%);
     backdrop-filter: blur(25px);
     border-radius: 7px;
@@ -32,8 +32,8 @@
 }
 
 .button__navigation-menu {
-    width: var(--dimention-navigation-width);
-    height: var(--dimention-navigation-width);
+    width: var(--dimension-navigation-width);
+    height: var(--dimension-navigation-width);
     justify-content: center;
     align-items: center;
     display: flex;
@@ -54,7 +54,7 @@
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
 }
 
-.container__page-licences__licence {
+.container__page-licenses__license {
     background: var(--color__background);
     border: 1px solid #000000;
     border-radius: 9px;
@@ -62,12 +62,12 @@
     margin: 20px 0 0 0;
 }
 
-.container__licence__image > img {
+.container__license__image > img {
     height: 100%;
     max-width: 100%;
 }
 
-.container__licence__image {
+.container__license__image {
     width: 100%;
     background: rgba(255, 255, 255, 0.01);
     border-radius: 9px 9px 0 0;
@@ -130,7 +130,7 @@
 
 #page__about-me,
 #page__contact-me,
-#page__licences,
+#page__licenses,
 #page__impossible-list,
 #page__timeline {
     min-height: 100vh;
@@ -167,7 +167,7 @@
 
 
 @media (min-width: 576px) {
-    .container__page-licences__licence {
+    .container__page-licenses__license {
         margin: 20px 0 0 0;
     }
 
@@ -186,7 +186,7 @@
         display: none;
     }
 
-    .container__page-licences__licence {
+    .container__page-licenses__license {
         margin: 0 20px 20px 20px;
     }
 
@@ -223,7 +223,7 @@
             display: none;
         }
 
-        .container__page-licences__licence {
+        .container__page-licenses__license {
             margin: 0 20px 20px 20px;
         }
 
@@ -256,7 +256,7 @@
             display: none;
         }
 
-        .container__page-licences__licence {
+        .container__page-licenses__license {
             margin: 0 20px 20px 20px;
         }
 
