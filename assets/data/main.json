@@ -68,6 +68,10 @@
     {
       "content": "Read and learn Uncle bob's Clean architecture.",
       "checked": false
+    },
+    {
+      "content": "Take first freelance project.",
+      "checked": false
     }
   ],
   "timeline": [
