@@ -22,7 +22,7 @@ document.querySelector("body").outerHTML = ejs.render(
                                   fill="currentColor"/>
                         </svg>
                     </div>
-                    <div id="button__navigation__menu--licenses " class="button__navigation-menu">
+                    <div id="button__navigation__menu--licenses" class="button__navigation-menu">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 7.5H27.5V10H12.5V7.5ZM12.5 12.5H27.5V15H12.5V12.5ZM12.5 30H20V32.5H12.5V30ZM12.5 17.5H20V20H12.5V17.5Z"
                                   fill="currentColor"/>

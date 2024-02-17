@@ -1,15 +1,14 @@
 document.addEventListener("DOMContentLoaded", (ev) => {
   const pageAbout = document.querySelector("#page__about-me");
-  const pageLicence = document.querySelector("#page__licences");
+  const pageLicense = document.querySelector("#page__licenses");
   const pageImpossibles = document.querySelector("#page__impossible-list");
   const pageTimeLine = document.querySelector("#page__timeline");
   const pageContact = document.querySelector("#page__contact-me");
-  let jumpingTo = false;
 
   const navButtonProfile = document.querySelector(
     "#button__navigation__menu--profile"
   );
-  const navButtonLicence = document.querySelector(
+  const navButtonLicense = document.querySelector(
     "#button__navigation__menu--licenses"
   );
   const navButtonImpossibles = document.querySelector(
@@ -26,13 +25,11 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     (entries) => {
       if (entries[0].isIntersecting) {
         const id = entries[0].target.id;
-        if (!jumpingTo || id === jumpingTo) {
-          jumpingTo = false;
-          highlightNavButton(id);
-        }
+        highlightNavButton(id);
+        console.log(id);
       }
     },
-    { threshold: [0.05] }
+    { threshold: [0.3] }
   );
 
   const getNavBtnCorrespondingPage = (id) => {
@@ -42,7 +39,7 @@ document.addEventListener("DOMContentLoaded", (ev) => {
         selectedPage = pageAbout;
         break;
       case "button__navigation__menu--licenses":
-        selectedPage = pageLicence;
+        selectedPage = pageLicense;
         break;
       case "button__navigation__menu--impossible-list":
         selectedPage = pageImpossibles;
@@ -71,8 +68,8 @@ document.addEventListener("DOMContentLoaded", (ev) => {
       case "page__about-me":
         navButtonProfile.classList.add("selected");
         break;
-      case "page__licences":
-        navButtonLicence.classList.add("selected");
+      case "page__licenses":
+        navButtonLicense.classList.add("selected");
         break;
       case "page__impossible-list":
         navButtonImpossibles.classList.add("selected");
@@ -93,7 +90,7 @@ document.addEventListener("DOMContentLoaded", (ev) => {
     );
 
   intersectionObserver.observe(pageAbout);
-  intersectionObserver.observe(pageLicence);
+  intersectionObserver.observe(pageLicense);
   intersectionObserver.observe(pageImpossibles);
   intersectionObserver.observe(pageTimeLine);
   intersectionObserver.observe(pageContact);
