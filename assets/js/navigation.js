@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", (ev) => {
         if (!jumpingTo || id === jumpingTo) {
           jumpingTo = false;
           highlightNavButton(id);
-          snipToPage(id);
         }
       }
     },
@@ -85,9 +84,6 @@ document.addEventListener("DOMContentLoaded", (ev) => {
         navButtonContact.classList.add("selected");
         break;
     }
-  };
-  const snipToPage = (pageId) => {
-    window.scrollTo(0, document.getElementById(pageId).offsetTop);
   };
 
   document
