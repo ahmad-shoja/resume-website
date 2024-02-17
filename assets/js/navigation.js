@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", (ev) => {
   const navButtonContact = document.querySelector(
     "#button__navigation__menu--contact"
   );
-
   const intersectionObserver = new IntersectionObserver(
     (entries) => {
       if (entries[0].isIntersecting) {

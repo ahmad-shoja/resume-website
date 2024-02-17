@@ -52,9 +52,9 @@ document.querySelector("body").outerHTML = ejs.render(
                     </div>
                 </div>
             </div>
-            <div id="button__navigation__menu--download" class="button__navigation-menu">
+            <a id="button__navigation__menu--download" class="button__navigation-menu" href="/assets/resume.pdf" download >
                 <img src="assets/images/ic_download.svg" alt="ic_download.svg">
-            </div>
+            </a>
         </div>
         <div id="section__main__content" class="d-flex justify-content-start">
             <div id="main__content__container" class="d-flex justify-content-center w-100 ">
