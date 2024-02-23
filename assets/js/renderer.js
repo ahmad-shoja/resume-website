@@ -11,7 +11,7 @@ const pages = [
 document.title = data.name;
 
 pages.forEach(({ name, id }) => {
-  fetch(`/pages/${name}.ejs`)
+  fetch(`/pages/${name}.html`)
     .then((response) => response.text())
     .then((template) => {
       document.getElementById(id).innerHTML = ejs.render(template, data);
