@@ -1,4 +1,4 @@
-import data from "../data/main.json";
+import data from "../data/main.json" assert { type: "json" };
 
 const pages = [
   { name: "about", id: "page__about-me" },
