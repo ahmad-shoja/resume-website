@@ -63,11 +63,11 @@
     },
     {
       "content": "Read and learn Uncle bob's Clean code.",
-      "checked": false
+      "checked": true
     },
     {
       "content": "Read and learn Uncle bob's Clean architecture.",
-      "checked": false
+      "checked": true
     },
     {
       "content": "Take first freelance project.",
