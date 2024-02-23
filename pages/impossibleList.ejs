@@ -1,0 +1,16 @@
+<p class="text-style__heading-1">Impossible list</p>
+<div id="container__page-impossible-list" class="d-flex flex-column justify-content-center pt-5 w-100">
+  <ul id="ul__page-impossible-list" class="row">
+    <% impossibleList.forEach((item)=>{ %> <% if(item.checked){ %>
+    <li>
+      <p class="text-style__heading-3 text-start d-inline">
+        <s> <%- item.content -%></s>
+      </p>
+    </li>
+    <% } else{ %>
+    <li>
+      <p class="text-style__heading-3 text-start d-inline"><%- item.content -%></p>
+    </li>
+    <%}%> <% }) %>
+  </ul>
+</div>

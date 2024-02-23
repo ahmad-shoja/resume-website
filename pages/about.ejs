@@ -1,0 +1,78 @@
+<div id="container__page-about-me__image" class="col-12 col-sm-12 col-md-5 d-flex flex-column position-relative">
+  <img src="assets/images/image_profile_main.JPG" alt="profile_image" class="position-absolute" />
+  <div id="gradient__main-image" class="position-absolute d-flex flex-column-reverse">
+    <div class="h-25 w-100 d-flex justify-content-center flex-column">
+      <p class="text-style__heading-1 mb-2 lh-1"><%=name %></p>
+      <p class="text-style__content mb-1 text-center"><%=name %></p>
+      <p class="text-style__accent mb-4"><%=expertise %></p>
+      <div class="w-100 h-25 mb-3 d-flex justify-content-center align-items-center">
+        <%if(contact.facebook){%>
+        <a href="<%-contact.facebook-%>">
+          <img width="30" height="30" src="assets/images/ic_facebook.svg" alt="ic_facebook" class="me-5" />
+        </a>
+        <%}%> <%if(contact.linkedin){%>
+        <a href="<%-contact.linkedin-%>">
+          <img width="30" height="30" src="assets/images/ic_linkedin.svg" alt="ic_linkedin" class="me-5" />
+        </a>
+        <%}%> <%if(contact.github){%>
+        <a href="<%-contact.github-%>">
+          <img width="30" height="30" src="assets/images/ic_github.svg" alt="ic_github" class="me-5" />
+        </a>
+        <%}%> <%if(contact.youtube){%>
+        <a href="<%-contact.youtube-%>">
+          <img width="35" height="35" src="assets/images/ic_youtube.svg" alt="ic_youtube" />
+        </a>
+        <%}%>
+      </div>
+    </div>
+  </div>
+</div>
+<div
+  id="container__page-about-me__content"
+  class="col-12 col-sm-12 col-md-7 h-100 d-flex flex-column ps-5 pe-5 pt-3"
+  style=""
+>
+  <p class="text-style__heading-1 text-start">About me</p>
+  <p class="text-style__path text-start">
+    <span style="color: var(--color__primary)"><%= age%> years</span>
+    <span style="color: var(--color__text-content)">/</span>
+    <span style="color: var(--color__primary)"><%= location %></span>
+    <span style="color: var(--color__text-content)">/</span>
+    <span style="color: var(--color__primary)"><%=jobType %></span>
+  </p>
+  <p class="text-style__content col-md-11 col-12 col-sm-12"><%-intro%></p>
+  <div class="divider"></div>
+  <p class="text-style__heading-2 text-start">My expertise</p>
+  <div class="row mt-5">
+    <div class="col-12 col-sm-12 col-md-6">
+      <div class="d-flex flex-column justify-content-start">
+        <img src="<%-expertises[0]['icon']%>" alt="<%-expertises[0]['title']%>" width="40" height="40" />
+        <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[0]["title"]%></p>
+        <p class="text-style__content"><%-expertises[0]["content"]%></p>
+      </div>
+      <div class="mt-5">
+        <div class="d-flex flex-column justify-content-start">
+          <img src="<%-expertises[1]['icon']%>" alt="<%-expertises[1]['title']%>" width="40" height="40" />
+          <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[1]["title"]%></p>
+          <p class="text-style__content"><%-expertises[1]["content"]%></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-6">
+      <div>
+        <div class="d-flex flex-column justify-content-start">
+          <img src="<%-expertises[2]['icon']%>" alt="<%-expertises[2]['title']%>" width="40" height="40" />
+          <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[2]["title"]%></p>
+          <p class="text-style__content"><%-expertises[2]["content"]%></p>
+        </div>
+      </div>
+      <div class="mt-5">
+        <div class="d-flex flex-column justify-content-start">
+          <img src="<%-expertises[3]['icon']%>" alt="<%-expertises[3]['title']%>" width="40" height="40" />
+          <p class="text-style__heading-3 text-start mb-2 mt-3 lh-1"><%-expertises[3]["title"]%></p>
+          <p class="text-style__content"><%-expertises[3]["content"]%></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
