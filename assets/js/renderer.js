@@ -1,6 +1,5 @@
 const data = await fetch("./assets/data/main.json").then((res) => res.json());
 
-
 const pages = [
   { name: "about", id: "page__about-me" },
   { name: "licenses", id: "page__licenses" },
@@ -12,7 +11,7 @@ const pages = [
 document.title = data.name;
 
 pages.forEach(({ name, id }) => {
-  fetch(`../../pages/${name}.html`)
+  fetch(`./pages/${name}.html`)
     .then((response) => response.text())
     .then((template) => {
       document.getElementById(id).innerHTML = ejs.render(template, data);
