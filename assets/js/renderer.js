@@ -1,4 +1,4 @@
-await fetch("./assets/data/main.json").then((res) => res.json());
+const data = await fetch("./assets/data/main.json").then((res) => res.json());
 
 
 const pages = [
