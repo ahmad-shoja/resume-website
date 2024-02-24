@@ -1,4 +1,4 @@
-const data = await fetch("/assets/data/main.json").then((res) => res.json());
+const data = await fetch("../data/main.json").then((res) => res.json());
 
 const pages = [
   { name: "about", id: "page__about-me" },
