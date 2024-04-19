@@ -4,27 +4,49 @@
   "age": 25,
   "location": "Isfahan",
   "jobType": "Full-time",
-  "intro": "👋 Hi, I’m Ahmad Shoja.</br>👀 I graduated from the University of Amirkabir-arak in 2021 with a bachelor's degree in Computer Software development.</br>🌱 My interests are in software architecture and design patterns, and I love to create well-structured and clean-coded products that can be easily maintained.🧑‍💻I previously worked at team pooya-tech, where we take startup projects from customers in different stack technologies like react, Vue, Python, Django, android, etc.</br>Now im working in a shopify app development team as CTO.</br>💞️ I love to find optimal ways to do things, with minimum effort and maximum quality. I can grease the wheels of projects.",
-  "expertises": [
+  "intro": "👋 Hi, I’m Ahmad Shoja.</br>🌱 My interests are in software architecture and design patterns, and I love to create well-structured and clean-coded products that can be easily maintained.</br>🧑‍💻Now im working in a shopify app development team as CTO.</br>💞️ I love to find optimal ways to do things, with minimum effort and maximum quality. I can grease the wheels of projects.",
+  "skills": [
     {
-      "title": "Web Development",
-      "icon": "assets/images/ic_development.svg",
-      "content": "Experienced Javascript/Typescript developer"
+      "title": "Typescript",
+      "color": "#3178C6",
+      "level": 98,
+      "content": ""
     },
     {
-      "title": "Android Development",
-      "icon": "assets/images/ic_android.svg",
-      "content": "Intermediate kotlin/jetpack-compose android developer"
-    },
-    {
-      "title": "UI / UX",
-      "icon": "assets/images/ic_design.svg",
-      "content": "Familiar with Ui/Ux design"
+      "title": "Javascript",
+      "color": "#F7DF1E",
+      "level": 98,
+      "content": ""
     },
     {
       "title": "DevOps",
-      "icon": "assets/images/ic_devops.svg",
-      "content": "Intermediate devops engineer"
+      "color": "#008ad7",
+      "level": 40,
+      "content": ""
+    },
+    {
+      "title": "React",
+      "color": "#61DAFB",
+      "level": 80,
+      "content": ""
+    },
+    {
+      "title": "nextJs",
+      "color": "#ffffff",
+      "level": 60,
+      "content": ""
+    },
+    {
+      "title": "Sys design",
+      "color": "#00ff00",
+      "level": 40,
+      "content": ""
+    },
+    {
+      "title": "Shopify app",
+      "color": "#96BF48",
+      "level": 90,
+      "content": ""
     }
   ],
   "licenses": [

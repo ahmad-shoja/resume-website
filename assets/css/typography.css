@@ -1,12 +1,12 @@
 @import "fonts.css";
 
 :root {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 @media (min-width: 576px) {
   :root {
-    font-size: 8px;
+    font-size: 16px;
   }
 }
 
@@ -36,8 +36,9 @@
   line-height: 6rem;
   text-align: center;
   color: var(--color__text-title);
-  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border),
-    2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+  fill: var(--color__text-title);
+  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border),
+    0 -2px var(--color__text-border);
 }
 
 .text-style__heading-2 {
@@ -48,8 +49,9 @@
   line-height: 2.625rem;
   text-align: center;
   color: var(--color__text-subheading);
-  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border),
-    2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+  fill: var(--color__text-subheading);
+  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border),
+    0 -2px var(--color__text-border);
 }
 
 .text-style__heading-3 {
@@ -60,8 +62,9 @@
   line-height: 4.5rem;
   text-align: center;
   color: var(--color__text-subheading);
-  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border),
-    2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+  fill: var(--color__text-subheading);
+  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border),
+    0 -2px var(--color__text-border);
   letter-spacing: -0.035em;
 }
 
@@ -72,9 +75,10 @@
   font-size: 1rem;
   line-height: 24px;
   text-align: center;
-  color: var(--color__text-content);
-  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border),
-    1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+  color: var(--color__text-subheading);
+  fill: var(--color__text-subheading);
+  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border),
+    0 -1px var(--color__text-border);
 }
 
 .text-style__path {
@@ -84,8 +88,7 @@
   font-size: 1.1875rem;
   line-height: 30px;
   text-align: center;
-  text-shadow: -1.4px 0 var(--color__text-border),
-    0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
     0 -1.4px var(--color__text-border);
 }
 
@@ -96,8 +99,8 @@
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: var(--color__text-content);
-  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border),
-    1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border),
+    0 -1px var(--color__text-border);
 }
 
 .text-style__accent {
@@ -108,8 +111,34 @@
   line-height: 1.8rem;
   color: var(--color__primary);
   text-align: center;
-  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border),
-    1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border),
+    0 -1px var(--color__text-border);
+}
+.text-style__skill__title {
+  font-family: "Helvetica", system-ui;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 32px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  color: var(--color__text-title);
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+    0 -1.4px var(--color__text-border);
+}
+
+.text-style__skill__description {
+  font-family: "Helvetica", system-ui;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.85rem;
+  line-height: 20px;
+  letter-spacing: -0.035em;
+  text-align: center;
+  flex-grow: 1;
+  color: var(--color__text-content);
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+    0 -1.4px var(--color__text-border);
 }
 
 .text-style__license__title {
@@ -121,8 +150,7 @@
   letter-spacing: -0.035em;
   text-align: center;
   color: var(--color__text-title);
-  text-shadow: -1.4px 0 var(--color__text-border),
-    0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
     0 -1.4px var(--color__text-border);
 }
 
@@ -135,8 +163,7 @@
   letter-spacing: -0.035em;
   text-align: start;
   color: var(--color__text-title);
-  text-shadow: -1.4px 0 var(--color__text-border),
-    0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
     0 -1.4px var(--color__text-border);
   flex-grow: 1;
 }
@@ -151,8 +178,7 @@
   text-align: start;
   flex-grow: 1;
   color: var(--color__text-content);
-  text-shadow: -1.4px 0 var(--color__text-border),
-    0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
+  text-shadow: -1.4px 0 var(--color__text-border), 0 1.4px var(--color__text-border), 1.4px 0 var(--color__text-border),
     0 -1.4px var(--color__text-border);
 }
 
@@ -164,8 +190,8 @@
   line-height: 43px;
   text-align: start;
   color: var(--color__text-content);
-  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border),
-    1px 0 var(--color__text-border), 0 -1px var(--color__text-border);
+  text-shadow: -1px 0 var(--color__text-border), 0 1px var(--color__text-border), 1px 0 var(--color__text-border),
+    0 -1px var(--color__text-border);
 }
 
 .text-style__contact--title {
@@ -176,8 +202,8 @@
   line-height: 63px;
   text-align: start;
   color: var(--color__text-subheading);
-  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border),
-    2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border),
+    0 -2px var(--color__text-border);
   letter-spacing: -0.035em;
 }
 
@@ -190,7 +216,7 @@
   text-align: start;
   text-decoration: underline;
   color: var(--color__text-content);
-  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border),
-    2px 0 var(--color__text-border), 0 -2px var(--color__text-border);
+  text-shadow: -2px 0 var(--color__text-border), 0 2px var(--color__text-border), 2px 0 var(--color__text-border),
+    0 -2px var(--color__text-border);
   letter-spacing: -0.035em;
 }

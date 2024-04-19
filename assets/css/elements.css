@@ -102,10 +102,12 @@
 #container__timeline {
 }
 
-.card__timeline {
+.card {
   background: rgba(12, 12, 12, 0.54);
   border-radius: 9px;
   padding: 8px 16px 8px 16px;
+}
+.card__timeline {
   margin-left: 90px;
 }
 
