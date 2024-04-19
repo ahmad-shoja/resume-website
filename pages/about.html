@@ -34,7 +34,11 @@
 >
   <p class="text-style__heading-1 text-start">About me</p>
   <p class="text-style__path text-start">
-    <span style="color: var(--color__primary)"><%= age%> years</span>
+    <span style="color: var(--color__primary)"
+      ><% const birthDate = new Date(birthDateStr); const ageDiffMs = Date.now() - birthDate.getTime(); const ageDate = new
+      Date(ageDiffMs); const age = Math.abs(ageDate.getUTCFullYear() - 1970); %><%= age %></span
+    >
+
     <span style="color: var(--color__text-content)">/</span>
     <span style="color: var(--color__primary)"><%= location %></span>
     <span style="color: var(--color__text-content)">/</span>
