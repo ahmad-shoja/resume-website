@@ -16,13 +16,13 @@ document.title = data.name;
 
 function loadNavigationScript() {
   const navigationScript = document.createElement('script');
-  navigationScript.src = "/assets/js/navigation.js";
+  navigationScript.src = "./assets/js/navigation.js";
   document.body.appendChild(navigationScript);
 }
 
 function loadSkillsScript() {
   const skillsScript = document.createElement('script');
-  skillsScript.src = "/assets/js/skills.js";
+  skillsScript.src = "./assets/js/skills.js";
   document.body.appendChild(skillsScript);
 }
 
