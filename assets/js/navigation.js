@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", (ev) => {
+(() => {
+
   const pageAbout = document.querySelector("#page__about-me");
   const pageLicense = document.querySelector("#page__licenses");
   const pageImpossibles = document.querySelector("#page__impossible-list");
@@ -25,10 +26,10 @@ document.addEventListener("DOMContentLoaded", (ev) => {
       if (entries[0].isIntersecting) {
         const id = entries[0].target.id;
         highlightNavButton(id);
-        console.log(id);
       }
-    },
-    { threshold: [0.3] }
+    }, {
+    threshold: [0.3]
+  }
   );
 
   const getNavBtnCorrespondingPage = (id) => {
@@ -93,4 +94,5 @@ document.addEventListener("DOMContentLoaded", (ev) => {
   intersectionObserver.observe(pageImpossibles);
   intersectionObserver.observe(pageTimeLine);
   intersectionObserver.observe(pageContact);
-});
+
+})();
