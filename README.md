@@ -16,6 +16,9 @@ Here's why:
 
 build with html/css/js
 
+<a href="https://ahmad-shoja.github.io/resume-website" target="_blank">Live demo</a>
+
+
 
 
 
@@ -25,6 +28,9 @@ build with html/css/js
 # Getting Started
 
 this project is build with html/css/js just clone and start using it .
+
+- Colors can be changed in assets/css/colors.
+- You can insert your own data in data/main.json
 
 
 
